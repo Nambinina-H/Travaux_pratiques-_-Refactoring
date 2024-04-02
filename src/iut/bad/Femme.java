@@ -8,6 +8,6 @@ public class Femme extends Humain {
 	   public static void main(String[] args) {
 		     Homme homme = new Homme("Homme", "Un", 25);
 		     Femme femme = new Femme("Femme", "Une", 24);
-		     femme.ami(homme);
+		     femme.ami(homme, 100);
 		   }
 	}

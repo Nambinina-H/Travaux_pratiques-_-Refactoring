@@ -27,7 +27,7 @@ public class Humain {
 	   public void boire() {
 		   }
 	   
-	   public void ami(Humain autre) {
-		     System.out.println(this.nom + " et " + autre.nom + " sont amis.");
+	   public void ami(Humain autre, int duree) {
+		     System.out.println(this.nom + " et " + autre.nom + " sont amis depuis " + duree + " jours.");
 		   }
 	}
