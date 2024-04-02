@@ -20,4 +20,10 @@ public class Humain {
 	   public void details() {
 	     System.out.println(this.toString());
 	   }
+	   
+	   public void manger() {
+		   }
+
+	   public void boire() {
+		   }
 	}
