@@ -1,6 +1,7 @@
 package iut.bad;
 
 public class Humain {
+	
 	   protected String nom;
 	   protected String prenom;
 	   protected int age;
@@ -10,4 +11,8 @@ public class Humain {
 	     this.prenom = prenom;
 	     this.age = age;
 	   }
+	   
+	   public void details() {
+		     System.out.println("Nom: " + nom + ", Prenom: " + prenom + ", Age: " + age);
+		   }
 	}
